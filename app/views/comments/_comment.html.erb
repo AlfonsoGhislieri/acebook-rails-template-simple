@@ -1,6 +1,6 @@
 
   <div>
-    User <%= comment.user_id %>:
+  <%=  "User #{comment.user.username}"%>:
     <%= comment.content %>
      <%= link_to "Delete", [comment.post, comment], method: :delete, data: { confirm: 'Are you sure?' } %> 
 
