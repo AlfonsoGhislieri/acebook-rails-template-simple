@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    @pagy, @users = pagy(User.all, items: 5)
+    @pagy, @users = pagy(User.order(username: :asc), items: 5)
   end
 
   def search
