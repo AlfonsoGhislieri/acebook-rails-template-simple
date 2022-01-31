@@ -1,4 +1,5 @@
 # AceBook
+https://acebook-production.herokuapp.com/
 
 ## Quickstart
 
@@ -40,3 +41,16 @@ https://trello.com/b/40IbAHuD/acebooktbc
  * Users have many posts, comments, friendships and likes.
  * Posts have many comments and likes.
  
+## Features
+
+- Users can sign up
+- Users can log in/log out
+- Users can make posts, both with images and text 
+- Users can make comments on posts 
+- Users can like a post
+- Users can modify their profile information and upload an avatar
+- Avatar displayed on posts and navbar
+- Default avatar given to user on account creation
+- User can send friend requests to other users
+- Users can accept/reject friend requests
+- Friends are displayed on home page
