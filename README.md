@@ -1,5 +1,5 @@
 # AceBook
-https://acebook-production.herokuapp.com/
+https://acebook-production.herokuapp.com/ (currently old images are not displaying due to being stored locally on heroku)
 
 ## Quickstart
 
