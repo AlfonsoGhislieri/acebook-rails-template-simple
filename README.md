@@ -1,11 +1,15 @@
 # AceBook
-https://acebook-production.herokuapp.com/ (currently old images are not displaying due to being stored locally on heroku)
+The aim of this project was to work as a team to build a clone of Facebook. We used [Ruby on Rails](https://rubyonrails.org/), [PostgreSQL](https://www.postgresql.org/), [Bootstrap](https://getbootstrap.com/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
+
+Tested using [RSpec](https://rspec.info/) and [Capybara](https://github.com/teamcapybara/capybara).
+
+Deployed to Heroku with continuous integration implemented: https://acebook-production.herokuapp.com/ (currently old images are not displaying due to being stored locally on heroku)
 
 ## Quickstart
 
-First, clone this repository. Then:
-
 ```bash
+> git clone https://github.com/AlfonsoGhislieri/acebook-rails-template-simple.git
+> cd acebook-rails-template-simple
 > bundle install
 > bin/rails db:create
 > bin/rails db:migrate
@@ -24,10 +28,6 @@ ExecJS::RuntimeUnavailable:
  ```
 
 Rails requires a Javascript runtime to work. The easiest way is to install Node by running `brew install node` - and then run `bundle exec rspec` again
-
-## Project
-
-The aim of this project was to work as a team to build a clone of Facebook. We used Ruby on Rails as a framework and deployed with Heroku. 
 
 ## Trello Link
 
@@ -54,3 +54,4 @@ https://trello.com/b/40IbAHuD/acebooktbc
 - User can send friend requests to other users
 - Users can accept/reject friend requests
 - Friends are displayed on home page
+
