@@ -3,7 +3,7 @@ The aim of this project was to work as a team to build a clone of Facebook. We u
 
 Tested using [RSpec](https://rspec.info/) and [Capybara](https://github.com/teamcapybara/capybara).
 
-Deployed to Heroku with continuous integration implemented: https://acebook-production.herokuapp.com/ (currently old images are not displaying due to being stored locally on heroku)
+Deployed to Heroku with continuous integration implemented: https://acebook-production.herokuapp.com/ (currently old images are not displaying due to being stored locally on heroku).
 
 ## Quickstart
 
@@ -54,4 +54,5 @@ https://trello.com/b/40IbAHuD/acebooktbc
 - User can send friend requests to other users
 - Users can accept/reject friend requests
 - Friends are displayed on home page
+- User authentication checks to not let users delete or edit posts/comments of others
 
